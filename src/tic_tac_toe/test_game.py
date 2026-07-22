@@ -3,7 +3,7 @@ import unittest
 from tic_tac_toe.board import Board
 from .player import Player
 
-class TicTacToe(unittest.TestCase):
+class TestTicTacToe(unittest.TestCase):
 
     def test_create_players(self):
         player_one = Player("Kay", "X")

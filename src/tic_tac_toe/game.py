@@ -70,7 +70,6 @@ class Game:
 
             if self.game_over():
                 break
-
             self.switch_player()
 
         self.announce_result()
